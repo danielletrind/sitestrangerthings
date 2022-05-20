@@ -1,5 +1,5 @@
 body{
-    background-color:#CD5C5C ;
+    background-color:#3074c2be;
 }
 
 .fundo_diferente{
@@ -33,14 +33,14 @@ h1{
 }
 
 p{
-    font-size: 2rem;
+    font-size: 2em;
     text-align: justify;
     text-indent: 40px;
 }
 
 .historia_personagens > p{
 
-    font-size: 1em;
+    font-size: 2em;
 }
 
 .pinta_botao{
