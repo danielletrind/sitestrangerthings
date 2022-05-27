@@ -1,12 +1,35 @@
+html{
+   scroll-behavior: smooth;
+}
+
 body{
     background-color:#3074c2be;
+}
+
+.logo{
+   padding-top: 1%;
+   padding-bottom: 1%;
+}
+
+.menu, footer{
+    background-color: rgba(169,169,169, 0.5);
+    padding: 1.5%;
+}
+
+.logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.item_menu{
+  line-height: 1.5;
+  text-align: center;
 }
 
 .fundo_diferente{
     background-image:linear-gradient(#FFF5EE);
 }
      
-
 
 .img_topo{
   width: 100%;  
@@ -52,3 +75,15 @@ p{
 .botao{
     padding: top 15px;;
 }
+
+footer > p{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+
+   
+
+     
+
