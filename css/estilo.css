@@ -16,29 +16,66 @@ body{
     padding: 1.5%;
 }
 
-.logo{
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-.item_menu{
+.item_menu {
   line-height: 1.5;
   text-align: center;
 }
+
+.item_menu a{
+  font-size: 1.2em;
+}
+
+.item_menu a:link{
+    color: crimson;
+    text-decoration: none;
+}
+  
+.item_menu a:visited{
+    color: darkblue;
+    text-decoration: none;
+}
+
+  /* mouse over link */
+  .item_menu a:hover {
+    color: rgb(0, 0, 0);
+    padding: 0.8%;    
+    background-color: rgba(128, 128, 128, 0.3); 
+    text-decoration: none;
+    border-radius: 15%;
+    }
+
+  /* selected link */
+  .itens_menu a:active {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+section a:link{
+  color: #c9254e;
+}
+
+section a:visited {
+  color: rgb(107, 26, 161); 
+}
+
+section a:hover{
+  color: #630c0c;
+}
+
 
 .fundo_diferente{
     background-image:linear-gradient(#FFF5EE);
 }
      
-
 .img_topo{
   width: 100%;  
 }
 
 .img_corpo{
     width: 50%;  
+    margin-top: 1%;
+    margin-bottom: 1%;
   }
-
 
 figure{
     text-align: center;
@@ -52,17 +89,25 @@ figure{
 h1{
     text-align: center;
     color: #000000;
-              
+    font-size: 2em;          
+}
+
+h2{
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+  margin-bottom: 2%;
 }
 
 p{
     font-size: 2em;
     text-align: justify;
     text-indent: 40px;
+    line-height: 1.5;
 }
 
 .historia_personagens > p{
-
+    line-height: 1.5;
     font-size: 2em;
 }
 
@@ -71,9 +116,19 @@ p{
    height:50px;
    background-image:linear-gradient(#FFE4E1);
    margin: auto;
+   padding: 0.8%;
+   text-align: center;
+   padding-top: 3%;
 }
-.botao{
-    padding: top 15px;;
+
+.pinta_botao:hover{
+    background-color: rgba(75, 63, 185, 0.534);
+}
+
+.pinta_botao a:link, .pinta_botao :visited{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 footer > p{
@@ -81,6 +136,14 @@ footer > p{
     text-align: center;
 }
 
+section{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.escondido{
+    display: none;
+}
 
 
    
