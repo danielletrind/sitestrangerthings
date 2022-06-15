@@ -145,8 +145,14 @@ section{
     display: none;
 }
 
+.esquerda{
+  float: left;
+  width: 20%;
+  margin-left: 10%;
+}
 
-   
+
+  
 
      
 
