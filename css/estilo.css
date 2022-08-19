@@ -15,6 +15,7 @@ body{
 .menu, footer{
     background-color: rgba(169,169,169, 0.5);
     padding: 1.5%;
+    font-family: 'Lora', serif;
 }
 
 .item_menu {
@@ -27,29 +28,60 @@ body{
 }
 
 .item_menu a:link{
-    color: crimson;
-    text-decoration: none;
+  border: 3px solid #680d0d;
+  color:	#000000;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: 2px;
+  margin-top: 2px;
 }
-  
+
 .item_menu a:visited{
-    color: darkblue;
-    text-decoration: none;
+  border: 3px solid #680d0d;
+  color:	#000000;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: 2px;
+  margin-top: 2px;
 }
 
-  /* mouse over link */
-  .item_menu a:hover {
-    color: rgb(0, 0, 0);
-    padding: 0.8%;    
-    background-color: rgba(128, 128, 128, 0.3); 
-    text-decoration: none;
-    border-radius: 15%;
-    }
 
-  /* selected link */
-  .itens_menu a:active {
-    color: #FFF;
-    text-decoration: none;
-  }
+/* mouse over link */
+.item_menu a:hover {
+  border: 5px solid	#000000;
+  color: #000000;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+ /* selected link */
+ .itens_menu a:active {
+  background-color: rgb(0, 0, 0);
+  border: #000000;
+  color: #bd0a0a;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: 2px;
+  margin-top: 2px;
+ }
 
 section a:link{
   color: #c9254e;
@@ -62,7 +94,6 @@ section a:visited {
 section a:hover{
   color: #630c0c;
 }
-
 
 .fundo_diferente{
     background-image:linear-gradient(#FFF5EE);
@@ -90,7 +121,8 @@ figure{
 h1{
     text-align: center;
     color: #000000;
-    font-size: 2em;          
+    font-size: 2em; 
+    font-family: 'Playfair Display', serif;         
 }
 
 h2{
@@ -98,6 +130,7 @@ h2{
   color: black;
   font-size: 1.5em;
   margin-bottom: 2%;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 p{
@@ -105,7 +138,7 @@ p{
     text-align: justify;
     text-indent: 40px;
     line-height: 1.5;
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Lora', serif;
     
 }
 
@@ -122,6 +155,7 @@ p{
    padding: 0.8%;
    text-align: center;
    padding-top: 3%;
+
 }
 
 .pinta_botao:hover{
@@ -158,7 +192,7 @@ table{
   border-collapse: collapse;
   width: 100%;
   margin-top: 2%;
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Lora', serif;
 }
 
 
@@ -188,7 +222,41 @@ td:first-child + td{
 audio::-webkit-media-controls-panel{
   background-color:rgba(128, 128, 128, 0.3) !important;
   }
+  
+  .borda_form{
+    background-color: rgba(128, 128, 128, 0.3) ;
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 1%;
+    box-sizing: border-box;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-family: 'Noto Sans', sans-serif;
+  }
 
+  input[type=text], select, textarea, input[type=tel], input[type=email] {
+    width: 96%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    resize: vertical;
+  }
+ 
+
+.col-25{
+  width: 25%;
+  float: left;
+  margin-top: 6px;
+
+}
+
+.col-75{
+width: 75%;
+float: left;
+margin-top: 6px;
+}
 
   
 
