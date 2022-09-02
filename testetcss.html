@@ -4,35 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS interno e inline</title>
+    <title>CSS Interno e Inline </title>
     <style>
-      body{
-          background-color: rgb(36, 105, 209);
-      }
-      h1{
-          background-color: rgb(127, 219, 255);
-      }
-      p{
-          background-color:chocolate;
-      }
-      div{
-          width: 100px;
-          height: 50px;
-         background-color: indigo;
-         margin: auto;
-      }
+        body{
+            background-color: yellow;
+        }
+        h1{
+            background-color: aquamarine;
+        }
+        p{
+            background-color: cornflowerblue;
+        }
+        /* div{
+            width: 100px;
+            height: 50px;
+            background-color:cornflowerblue;
+            margin: auto;            
+        } */
+        .botao{
+            padding-top: 15px;
+            text-align: center;
+        }
 
-      .botao{
-          padding-top: 15px;
-          text-align: center;
-      }
-      
+        .fixo{
+            position: fixed;
+            width: 100%;
+            z-index: 1030;
+            top:0;
+        }
+
+        .cabe{
+            width: 100%;
+            position: relative;
+            top: 60px;
+        }      
+
+        .container{
+            width: 100%;
+            height: 1220px;
+            top:60px;
+            position: relative;
+            background-color: rgb(0, 0, 0);
+        }     
+        
+        .topodir{
+            position: absolute;
+            width: 20%;
+            background-color: rgb(138, 192, 38);
+            right: 16px;
+            top: 50px;
+
+        }
+
+        .topoesq{
+            position: absolute;
+            width: 20%;
+            background-color: rgb(61, 12, 12);
+            left: 16px;
+            top: 50px;
+
+        }
+
+        .baixoesq{
+            position: absolute;
+            width: 20%;
+            background-color: rgb(21, 59, 59);
+            bottom: 10px;
+            left: 16px;
+
+
+        }
+        .baixodir{
+            position: absolute;
+            width: 20%;
+            background-color:rgb(143, 237, 100);
+            bottom: 10px;
+            right: 16px;
+
+
+        }
+
     </style>
 </head>
 <body>
-   <h1 style="text-align: center;color: black;font-weight: bold;">CSS interno e inline</h1> 
-   <p  style="border-color: crimson;border-style: groove; color: rgb(0, 0, 0);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur esse quod consectetur laboriosam! Nulla officiis dignissimos saepe, vero omnis voluptatibus fugit ipsum dolore est distinctio voluptatum delectus voluptate tempora soluta?</p>
-   <p  style="border-color: deeppink;border-style: groove; color: rgb(0, 0, 0);">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim ex recusandae laborum incidunt deserunt a numquam rem, eligendi voluptatum minus perspiciatis necessitatibus debitis ad dolores eaque, repudiandae cum laudantium omnis.</p>
-   <a href="index.html"><div><p class="botao">HOME</p></div></a>
+    <header>
+        <h1 class="fixo" style="text-align: center;color: rgb(211, 63, 63); font-weight: bold;" >CSS Interno e Inline</h1>
+        <div class="cabe">
+            <p style="border-color: rgb(145, 145, 197); border-style: groove; color: rgb(176, 142, 207);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nobis molestiae quod aperiam odit cum beatae aliquam ducimus! Quia molestiae dicta optio debitis quod ex omnis dolorum dolore soluta aut?</p>
+            <p style="border-color: rgb(94, 13, 87); border-style: groove; color: rgb(67, 27, 104);">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex esse rerum dolorum debitis minima quam, quaerat in illum dolorem qui deserunt voluptatum ad. Perspiciatis veniam corporis explicabo inventore magnam debitis.</p>
+        </div>
+    </header>
+    <div class="main">
+        <div class="container">
+            <h1>Teste...</h1>
+            <div class="topodir">topodir</div>
+            <div class="topoesq">topodir</div>
+            <div class="baixoesq">topodir</div>
+            <div class="baixodir">topodir</div>
+            <div class="centro">topodir</div>
+        </div>
+
+    </div>
+    
+    <a href="index.html"> <div> <p class="botao">HOME</p> </div> </a>
+ 
+        
+
 </body>
 </html>
